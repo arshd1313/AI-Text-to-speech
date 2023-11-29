@@ -1,0 +1,14 @@
+pydantic 
+
+pickleshare
+fastapi
+gTTS
+
+tensorflow
+
+transformers
+torch
+datasets
+
+
+typing_extensions
