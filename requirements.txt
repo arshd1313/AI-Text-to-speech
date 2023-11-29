@@ -1,5 +1,4 @@
 pydantic 
-
 pickleshare
 fastapi
 gTTS
@@ -8,5 +7,5 @@ transformers
 torch
 datasets
 uvicorn
-dill
+dill ==0.3.0
 typing_extensions
