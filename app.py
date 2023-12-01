@@ -13,7 +13,7 @@ API_URL = "https://api-inference.huggingface.co/models/facebook/mms-tts-eng"
 HEADERS = {"Authorization": "Bearer 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"}
 
 class TextInput(BaseModel):
-    inputs: str
+    inputs: str 
 
 def query(payload):
     response = requests.post(API_URL, headers=HEADERS, json=payload)
